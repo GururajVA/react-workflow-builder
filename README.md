@@ -10,3 +10,4 @@ A modern drag-and-drop workflow management system.
 ## Development
 ```bash
 docker-compose up
+cd frontend && npm test
