@@ -28,5 +28,7 @@ The code follows industry best practices for React and Laravel development, incl
 
 ## Development
 ```bash
-docker-compose up
 cd frontend && npm test
+
+docker-compose up -d
+docker-compose exec backend php artisan migrate --seed
